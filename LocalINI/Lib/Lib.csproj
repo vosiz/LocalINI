@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net4.8</TargetFramework>
+    <AssemblyName>LocalINI</AssemblyName>
+    <RootNamespace>LocalIni</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Petr "Vošiz" Vošoust</Authors>
+    <Company>Petr "Vosiz" Vosoust</Company>
+    <Description>Simple localization package based on ini</Description>
+    <Copyright></Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/vosiz/LocalINI</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/vosiz/LocalINI</RepositoryUrl>
+    <Product>Vosiz.LocalINI</Product>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Vosiz.UtilsLib" Version="1.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
