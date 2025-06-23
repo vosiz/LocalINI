@@ -5,6 +5,6 @@ Localisation translations based on INI
 No bug so far
 
 ## Route-map
-- [ ] Basics - change language, get translation,...
+- [x] Basics - change language, get translation,...
 - [ ] Simple CLI
 - [ ] GUI app
